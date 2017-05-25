@@ -82,7 +82,7 @@ function run() {
 
     webServer.get(/.*/, (request, response) => {
         if (!!request.cookies.access_token) {
-            response.sendFile(path.resolve('./front/groups.html'));
+            response.sendFile(path.resolve('./front/posts.html'));
         } else {
             response.sendFile(path.resolve('./front/index.html'));
         }

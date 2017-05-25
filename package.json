@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
-  "author": "",
-  "license": "ISC",
+  "author": "t.nikolaeva",
   "description": "",
   "scripts": {
     "start": "node server.js"
