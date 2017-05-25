@@ -1,0 +1,2 @@
+exports.CLIENT_ID = '--->INSERT_CLIENT_ID_HERE<---';
+exports.CLIENT_SECRETS = '--->INSERT_CLIENT_SECRET_HERE<---';

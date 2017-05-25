@@ -1,0 +1,17 @@
+{
+  "name": "twitter_sign_in_example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3"
+  }
+}
