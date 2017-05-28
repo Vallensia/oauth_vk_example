@@ -6,7 +6,7 @@
   "author": "t.nikolaeva",
   "description": "",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "axios": "^0.16.1",
