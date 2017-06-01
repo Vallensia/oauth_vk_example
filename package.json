@@ -2,15 +2,31 @@
   "name": "vk_sign_in_example",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "connect": "^3.6.2",
+    "css-loader": "^0.28.4",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-uglify": "^3.0.0",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.6.1"
+  },
   "author": "t.nikolaeva",
   "description": "",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "webpack"
   },
   "dependencies": {
     "axios": "^0.16.1",
     "cookie-parser": "^1.4.3",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "webpack-merge": "^4.1.0"
   }
 }
