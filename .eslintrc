@@ -3,5 +3,6 @@
   "env": {
     "browser": true,
     "node": true
-  }
+  },
+  "one-var": ["const", "always"]
 }

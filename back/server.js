@@ -1,8 +1,7 @@
 const { getFirstGroup, getToken } = require('./utils/vk');
-const
-  express = require('express'),
-  path = require('path'),
-  cookieParser = require('cookie-parser');
+const express = require('express');
+const path = require('path');
+const cookieParser = require('cookie-parser');
 
 function run() {
   const webServer = express();

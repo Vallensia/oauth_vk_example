@@ -15,7 +15,8 @@
     "gulp-livereload": "^3.8.1",
     "gulp-uglify": "^3.0.0",
     "style-loader": "^0.18.1",
-    "webpack": "^2.6.1"
+    "webpack": "^2.6.1",
+    "webpack-stream": "^3.2.0"
   },
   "author": "t.nikolaeva",
   "description": "",
@@ -27,6 +28,7 @@
     "axios": "^0.16.1",
     "cookie-parser": "^1.4.3",
     "express": "^4.15.3",
-    "webpack-merge": "^4.1.0"
+    "gulp-live-server": "0.0.30",
+    "webpack-stream": "^3.2.0"
   }
 }
