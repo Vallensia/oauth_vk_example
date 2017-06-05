@@ -1,5 +1,6 @@
-const gulp = require('gulp');
-const server = require('./dist/server.bundle.js');
+const
+  gulp = require('gulp'),
+  server = require('./dist/server.bundle.js');
 
 gulp.task('start', (callback) => {
   server.run();

@@ -4,5 +4,7 @@
     "browser": true,
     "node": true
   },
-  "one-var": ["const", "always"]
+  "rules": {
+    "one-var": [0, "never"]
+  }
 }
