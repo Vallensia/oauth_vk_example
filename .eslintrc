@@ -5,6 +5,7 @@
     "node": true
   },
   "rules": {
-    "one-var": [0, "never"]
+    "one-var": [0, "never"],
+    "linebreak-style": "off"
   }
 }

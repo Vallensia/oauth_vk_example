@@ -31,7 +31,7 @@ function run() {
       response.redirect('/html/index.html');
     }
   });
-
+  // eslint-disable-next-line no-console
   webServer.listen(5000, () => console.log('Сервер запущен localhost:5000'));
 }
 

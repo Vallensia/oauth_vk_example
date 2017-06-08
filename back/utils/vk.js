@@ -26,7 +26,7 @@ function getFirstGroup(request, response) {
     });
   }).then((postsResponse) => {
     response.json(postsResponse.data.response);
-  }).catch((error) => {
+  }).catch(() => {
     response.sendStatus(500);
   });
 }
@@ -47,17 +47,17 @@ function getToken(request, response) {
       redirect_uri: 'http://localhost:5000/token/',
     },
   }).then((tokenResponse) => {
-    const { access_token, expires_in, user_id } = tokenResponse.data;
+    const { access_token, expires_in: expiresIn, user_id } = tokenResponse.data;
 
     const options = {
-      maxAge: expires_in * 1000,
+      maxAge: expiresIn * 1000,
     };
 
     response.cookie('access_token', access_token, options);
     response.cookie('user_id', user_id, options);
 
     response.redirect('/posts');
-  }).catch((error) => {
+  }).catch(() => {
     response.redirect('/');
   });
 }
